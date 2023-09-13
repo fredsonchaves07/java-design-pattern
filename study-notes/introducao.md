@@ -21,3 +21,13 @@
   6. Acoplamento forte: Classes que são fortemente acopladas são difíceis de reutilizar isoladamente, uma vez que dependem umas das outras. O acoplamento forte leva a sistemas monolíticos, nos quais você não pode mudar ou remover uma classe em compreender e mudar muitas outras classes. Os padrões de projeto usam técnicas como acoplamento abstrato e projeto em camadas para obter sistemas fracamente acoplados. Padrões de projeto: Abstract factory, Bridge, Chain of Responsibility, Command, Façade, Mediator, Observer
   7. Estendendo a funcionalidade pelo uso de subclasses: A composição de objetos, em geral, e a delegação, em particular, fornecem alternativas flexíveis à herança para combinação de comportamentos. Muitos padrõesde projeto produzem arquiteturas (design) nas quais você pode introduzir uma funcionalidade customizada smplesmente pela definição de uma subclasse e pela composição de suas instâncias com as existentes. Padrões de projeto: Bridge, Chain of responsibility, Composite, Decorator, Observer, Strategy
   8. Incapacidade para alterar classes de modo conveniente: Algumas vezes voc? tem que modificar uma classe que não pode ser convenientemente modificada. Talvez necessite do código fonte e não disponha do mesmo. Ou, talvez, qualquer mudança possa requerer a modificação de muitas subclasses existentes. Padrões de projeto oferencem maneiras para modificação de classes em tais circustãncias. padrões d eprojeto: Adapter, Decorator, Visitor
+
+## Como selecionar um padrão de projeto?
+
+- Apresentamos diversas abordagens para encontrar o padrão de projeto correto para o seu problema
+  - Considere como padrões de projeto solucionam problemas de projeto
+  - Examine as seções intenção
+  - Estude como os padrões se interrelacionam
+  - Estude padrões de finalidades semelhantes
+  - Examine uma causa de reformulação de projeto
+  - Considere o que deveria ser variável no seu projeto
